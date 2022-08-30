@@ -20,7 +20,7 @@ rl.on("close", () => {
     process.exit();
 })
 
-
+//좀 더 해봐야함
 // const input = require("fs").readFileSync(0).toString().trim().map((el) => Number(el));
 
 // const A = input[0];
