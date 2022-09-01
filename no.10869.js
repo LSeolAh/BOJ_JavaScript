@@ -9,6 +9,5 @@ const B = Number(input[1]);
 console.log(A + B);
 console.log(A - B);
 console.log(A * B);
-const spl = Math.trunc(A / B);
-console.log(spl);
+console.log(parseInt(A / B));
 console.log(A % B);
