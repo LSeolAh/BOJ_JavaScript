@@ -23,7 +23,7 @@ let input = [];
 
 //입력 받는 곳
 rl.on("line", (line) => {
-    input = line.split(" ").map((el) => Number(el));
+    input = line.split("\n").map((el) => Number(el));
     rl.close(); //안하면 계속 입력 받음
 })
 
