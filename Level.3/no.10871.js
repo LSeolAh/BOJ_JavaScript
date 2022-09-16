@@ -11,5 +11,4 @@ for(let i= 0; i<N; i++){
     if(arr[i]< X)
         answer += (arr[i])+(" ");
 }
-
 console.log(answer);
