@@ -1,3 +1,4 @@
+//input에 이미 배열로 들어가있다는거 잊지말기
 const file =
 process.platform === "linux" ? 0 : "./input.txt";
 
