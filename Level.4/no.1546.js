@@ -1,3 +1,5 @@
+//백준에서 돌리는 건 되는데 vs에서 돌리는건 안됨 뭘까
+
 const file = process.platform === "linux" ? 0 : "./input.txt";
 
 const input = require("fs").readFileSync(file).toString().trim().split("\n");
